@@ -29,7 +29,7 @@ public class RequestHeaderServlet extends HttpServlet {
         //username=hi
         System.out.println("request.getQueryString() = " +
                 request.getQueryString());
-        System.out.println("request.isSecure() = " + request.isSecure());  //https
+        System.out.println("request.isSecure() = " + request.isSecure()); //https
         System.out.println("--- REQUEST-LINE - end ---");
         System.out.println();
     }
